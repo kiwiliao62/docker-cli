@@ -28,7 +28,7 @@ jobs:
         name: Create matrix
         id: platforms
         run: |
-          echo "lw nothing" >>${GITHUB_OUTPUT}
+          echo "lw123=lw nothing" >>${GITHUB_OUTPUT}
       -
         name: Show matrix
         run: |
